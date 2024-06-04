@@ -1,0 +1,51 @@
+body {
+    background-color:bisque;
+}
+.header {
+    postion: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 20%;
+    background-color:aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100; 
+}
+.logo {
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: 600;
+    font-family: serif;
+}
+.navbar a{ 
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px 20px;
+    color:whitesmoke;  
+    transition: .2s ease-in;
+    border-bottom: 2px solid var(pink);
+    overflow:hidden;
+    postion: relative;
+    transition: .3s;
+}
+.navbar a:hover {
+    color:pink
+}
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 105;
+}
+.home-content {
+    max-width: 600px;
+}
+.home-content h1 {
+    font-size: 40px;
+    font-weight:bolder
+}
+.home-content p {
+    font-size: 20px;
+}
