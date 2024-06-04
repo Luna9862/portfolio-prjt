@@ -2,12 +2,8 @@ body {
     background-color:bisque;
 }
 .header {
-    postion: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
-    padding: 30px 20%;
-    background-color:aquamarine;
+    background-color:black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,6 +14,7 @@ body {
     color: whitesmoke;
     font-weight: 600;
     font-family: serif;
+    text-decoration: none;
 }
 .navbar a{ 
     font-size: 20px;
@@ -27,8 +24,8 @@ body {
     transition: .2s ease-in;
     border-bottom: 2px solid var(pink);
     overflow:hidden;
-    postion: relative;
     transition: .3s;
+    text-decoration: none;
 }
 .navbar a:hover {
     color:pink
@@ -44,8 +41,28 @@ body {
 }
 .home-content h1 {
     font-size: 40px;
-    font-weight:bolder
+    font-weight:bolder;
 }
 .home-content p {
     font-size: 20px;
+}
+.images{
+   width: 50%;
+   height:70%;
+   display: flex;
+   bottom: 0;
+   justify-content: flex-end;
+}
+.images img{
+    height:200px;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(200px);
+}
+.images:hover .shape{
+    bottom:60px;
+}
+.me:hover {
+    left:45%;
+    transform: translateY(100px);
 }
