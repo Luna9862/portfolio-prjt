@@ -55,14 +55,20 @@ body {
 }
 .images img{
     height:200px;
-    left: 50%;
+    /* left: 50%; */
     bottom: 0;
-    transform: translateX(200px);
+    
 }
 .images:hover .shape{
     bottom:60px;
 }
+.me {
+    /* transform: translateX(200px); */
+    position: relative;
+    left: 200px;
+}
 .me:hover {
     left:45%;
-    transform: translateY(100px);
+    /* transform: translateX(200px); */
+    transform: translateY(20px);
 }
