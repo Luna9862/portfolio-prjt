@@ -72,3 +72,33 @@ body {
     /* transform: translateX(200px); */
     transform: translateY(20px);
 }
+@media screen and (max-width:786px) {
+    body {
+        
+    }
+    .navbar {
+
+    }
+}
+footer {
+    background-color:black;
+    color: whitesmoke;
+    padding:10px;
+    text-align: center;
+    /* position:fixed; */
+    bottom:0;
+    width:100%;
+    box-sizing: border-box;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 20px;
+
+}
+.contact-info {
+text-decoration: none;
+}
